@@ -18,6 +18,8 @@ It provides modular components for audio preprocessing, model inference, and pip
 ---
 
 ## 📂 Project Structure
+```
+
 STT/
 │── cloud_storage/ # Cloud storage utilities
 │── components/ # Core components of the STT system
@@ -33,12 +35,31 @@ STT/
 │── app.py # Main entry point
 │── requirements.txt # Python dependencies
 │── setup.py # Setup script
-
+```
 ---
 
-## ⚙️ Installation
-Clone the repository and install dependencies:
-```bash
-git clone https://github.com/mohamedabbouda/STT.git
+
+## ⚙️ Installation & Setup
+
+1. Clone the repo:
+```
+   git clone https://github.com/mohamedabbouda/STT.git
 cd STT
-pip install -r requirements.txt
+```
+
+
+3. Install dependencies:
+```
+ pip install -r requirements.txt
+```
+
+## ⚙️ Run pipeline (generate feedback logs)
+```
+ python pipeline.py
+
+```
+
+## ⚙️ Run web app
+```
+python app.py
+```
